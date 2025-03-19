@@ -1,0 +1,40 @@
+:root {
+    --roxo: #A294F9;
+    --lilas: #CDC1FF;
+    --areia-roxa: #E5D9F2;
+    --roxinho: #F5EFFF;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: var(--roxo);
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+}
+
+.menu-materias {
+    width: 15%;
+    display: inline-block;
+}
+
+.botao-materias {
+    cursor: pointer;
+    font-size: 2rem;
+    background: none;
+    background-color: var(--lilas);
+    border: none;
+    padding: 1.05rem 1.5rem;
+    color: black;
+}
+
+
+
+body {
+    background-color: var(--roxinho);
+}
+
+li {
+    text-decoration: none;
+}
