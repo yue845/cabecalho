@@ -29,7 +29,20 @@ header {
     color: black;
 }
 
+#menu-toggle {
+    display: none;
+}
 
+.listinha {
+    display: none;
+    position: absolute;
+    background-color: var(--lilas);
+    box-shadow: 0 2px 5px var(--areia-roxa);
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top: 100%;
+}
 
 body {
     background-color: var(--roxinho);
