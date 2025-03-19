@@ -74,8 +74,15 @@ header {
 
 body {
     background-color: var(--roxinho);
+    font-family: Arial, sans-serif;
 }
 
 li {
-    text-decoration: none;
+    list-style: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
 }
